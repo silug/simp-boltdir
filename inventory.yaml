@@ -1,0 +1,11 @@
+---
+version: 2
+
+targets:
+  - _plugin: task
+    task: simp_update::repos
+    parameters:
+      token:
+        _plugin: env_var
+        var: TOKEN
+        optional: true

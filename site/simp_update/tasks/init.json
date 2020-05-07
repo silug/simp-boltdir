@@ -1,0 +1,20 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "A short description of this task",
+  "input_method": "environment",
+  "parameters": {
+    "path": {
+      "description": "Local Git repo path",
+      "type": "String"
+    },
+    "url": {
+      "description": "Remote Git repo URL",
+      "type": "String"
+    },
+    "parent": {
+      "description": "URL of parent Git repo (for forks)",
+      "type": "Optional[String]"
+    }
+  }
+}

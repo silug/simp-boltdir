@@ -1,0 +1,11 @@
+---
+CHANGELOG.md:
+  delete: true
+README.md:
+  delete: true
+appveyor.yml:
+  delete: true
+.gitlab-ci.yml:
+  delete: true
+.travis.yml:
+  delete: true

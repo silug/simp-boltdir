@@ -1,0 +1,15 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": true,
+  "description": "Generate bolt inventory from the GitHub API",
+  "parameters": {
+    "token": {
+      "description": "GitHub API token",
+      "type": "Optional[String]"
+    },
+    "url": {
+      "description": "GitHub repos API endpoint",
+      "type": "Optional[String]"
+    }
+  }
+}
