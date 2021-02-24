@@ -1,6 +1,4 @@
 ---
-version: 2
-
 targets:
   - _plugin: task
     task: simp_update::repos

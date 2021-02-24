@@ -1,3 +1,4 @@
 /.rerun.json
 /.resource_types/
-/modules/
+/.modules/
+/bolt-debug.log
