@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Puppet Task Name: simp_update
 
