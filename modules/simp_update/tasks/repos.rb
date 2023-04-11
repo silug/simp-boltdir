@@ -74,5 +74,6 @@ targets = {
 }
 
 targets['value'].reject! { |v| v['vars']['size'].zero? }
+targets['value'].reject! { |v| v['vars']['archived'] }
 
 puts targets.to_json
