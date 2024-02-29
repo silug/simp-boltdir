@@ -15,7 +15,7 @@ def get(url, headers, *args)
   @connection = {} unless defined?(@connection)
 
   if @cache.key?(url)
-    return @cache['url']
+    return @cache[url]
   end
 
   STDERR.puts "Fetching #{url}..."
@@ -37,7 +37,7 @@ def get(url, headers, *args)
     info.concat(get(links['next'], headers))
   end
 
-  @cache['url'] = info
+  @cache[url] = info
 end
 
 params = JSON.parse(STDIN.read)
